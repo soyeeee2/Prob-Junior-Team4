@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import TDcontent from './component/TDcontent';
 
 
 
@@ -28,6 +29,18 @@ function App() {
         </div>
         
       </nav>
+
+      <section className='travelDestination01'>
+        <div className='des-con con-small'>
+          {/* 여기다 만든내용 넣어주세요 */}
+          
+          <div className='dropdown'>dropdown box 자리</div>
+          <TDcontent />
+          <TDcontent />
+          <TDcontent />
+          <TDcontent />
+        </div>
+      </section>
     </div>
   );
 }

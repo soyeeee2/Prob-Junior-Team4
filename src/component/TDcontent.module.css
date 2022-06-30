@@ -1,0 +1,11 @@
+.TDcontentBox{
+  width: 100%;
+  height: 300px;
+  border: 1px solid #babcc7;
+  margin-bottom: 50px ;
+}
+
+.TDcontentBox > img{
+  width: 200px;
+  height: 200px;
+}

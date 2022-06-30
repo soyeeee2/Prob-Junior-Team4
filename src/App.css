@@ -51,6 +51,7 @@ nav {
   display:flex;
   justify-content: space-between;
   align-items: center;
+  background-color: red;
 }
 
 nav ul {
@@ -93,3 +94,15 @@ nav .login{
   transform: translateY(-50%);
   color: #0D1B50;
 }
+
+/* travelDestination01 시작 */
+.travelDestination01 .dropdown{
+  margin-top: 300px;
+  text-align: start;
+}
+.travelDestination01 .content-box{
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+}
+/* travelDestination01 끝 */
