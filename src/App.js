@@ -12,6 +12,7 @@ function App() {
 
       <section className='travelDestination01'>
         <div className='des-con conSmall'>
+          {/* 여기다 만든내용 넣어주세요 */}
           <h1>여행지</h1>
           <SelectDropBox />
           
