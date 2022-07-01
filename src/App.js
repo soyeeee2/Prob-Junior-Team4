@@ -30,7 +30,6 @@ const SelectBox = (props) =>{
 
       </select>
     </div>
-    
   );
 };
 
