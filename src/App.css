@@ -15,7 +15,7 @@ a {
 .cell {
   float: left;
 }
-.cell-r {
+.cellRight {
   float: right;
 }
 .row::after {
@@ -23,77 +23,20 @@ a {
   content: "";
   display: block;
 }
-.con-large {
+.conLarge {
   width: 1440px;
   margin: 0 auto;
 }
-.con-small {
+.conSmall {
   max-width: 1080px;
   margin: 0 auto;
 }
-.img-box {
+.imgBox {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.App {
-  text-align: center;
-}
-/* navbar 스타일 */
-nav {
-  background-color: #0D1B50;
-  color: #BBFD92;
-  font-weight: 600;
-}
 
-.nav-con{
-  height: 50px;
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  /*background-color: red;*/
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-around;
-  font-size: 1rem;
-}
-
-nav .click{
-  flex-grow: 2;
-  margin-left: 150px;
-  margin-right: 130px;
-}
-
-nav .login{
-  flex-grow: 0.5;
-  margin-left: 30px;
-}
-
-.navSearch {
-  position: relative;
-  width: 150px;
-}
-
-.inputSearch {
-  width: 100%;
-  height: 30px;
-  padding-left: 20px;
-  font-size: 15px;
-  outline: none;
-  border: 0;
-  border-radius: 15px;
-  background-color: rgb(104, 111, 134);
-}
-
-.navSearch svg {
-  position: absolute;
-  right: 0%;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #0D1B50;
-}
 
 /* travelDestination01 시작 */
 .travelDestination01 .dropdown{
@@ -107,25 +50,4 @@ nav .login{
 }
 /* travelDestination01 끝 */
 
-/**/
-.selct-wrap{
-  width: 200px;
-  height: 30px;
-  border : 1px solid rgb(37, 37, 37);
-  border-radius: 5px;
-  background-color: aqua;
-}
 
-select {
-  width: 100%;
-  height: 100%;
-  font-size: 15px;
-  text-align: center;
-  border:0; /*기본 스타일 제거*/
-   -webkit-appearance:none; /* for chrome */
-   -moz-appearance:none; /*for firefox*/
-  appearance:none;
-  box-sizing: border-box;/*elect 박스의 크기 방식 지정*/
-  background:transparent;/*배경색 투명 처리*/
-
-}
