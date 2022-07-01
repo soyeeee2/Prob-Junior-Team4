@@ -2,7 +2,37 @@ import logo from './logo.svg';
 import './App.css';
 import TDcontent from './component/TDcontent';
 
+const localOptions = [
+	{ value: "seoul", name: "서울특별시" },
+  { value: "incheon", name: "인천광역시" },
+	{ value: "daejeon", name: "대전광역시" },
+  { value: "gwangju", name: "광주광역시" },
+  { value: "daegu", name: "대구광역시" },
+  { value: "ulsan", name: "울산광역시" },
+  { value: "busan", name: "부산광역시" }
+];
 
+const SelectBox = (props) =>{
+  const handleChange = (e) => {
+		// event handler
+		console.log(e.target.value);
+	};
+
+  return (
+    <div className='selct-wrap'>
+      <select onChange={handleChange} key={"시/도"} defaultValue={"시/도"}>
+        <option disabled={true} value={"시/도"}>시/도</option>
+        {props.options.map( (option) => (
+          <option key={option.value} value={option.value}>
+            {option.name}
+          </option>
+        ))}
+
+      </select>
+    </div>
+    
+  );
+};
 
 function App() {
   return (
@@ -33,6 +63,10 @@ function App() {
       <section className='travelDestination01'>
         <div className='des-con con-small'>
           {/* 여기다 만든내용 넣어주세요 */}
+          <h1>여행지</h1>
+            <div className="selecLabel" >지역 선택 : </div>
+            <SelectBox options={localOptions}></SelectBox>
+
           
           <div className='dropdown'>dropdown box 자리</div>
           <TDcontent />

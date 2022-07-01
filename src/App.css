@@ -39,7 +39,7 @@ a {
 .App {
   text-align: center;
 }
-/* 스타일 */
+/* navbar 스타일 */
 nav {
   background-color: #0D1B50;
   color: #BBFD92;
@@ -51,7 +51,7 @@ nav {
   display:flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
+  /*background-color: red;*/
 }
 
 nav ul {
@@ -106,3 +106,26 @@ nav .login{
   border: 1px solid black;
 }
 /* travelDestination01 끝 */
+
+/**/
+.selct-wrap{
+  width: 200px;
+  height: 30px;
+  border : 1px solid rgb(37, 37, 37);
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+select {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  text-align: center;
+  border:0; /*기본 스타일 제거*/
+   -webkit-appearance:none; /* for chrome */
+   -moz-appearance:none; /*for firefox*/
+  appearance:none;
+  box-sizing: border-box;/*elect 박스의 크기 방식 지정*/
+  background:transparent;/*배경색 투명 처리*/
+
+}
