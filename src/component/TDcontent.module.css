@@ -2,11 +2,15 @@
   width: 100%;
   height: 300px;
   border: 1px solid #babcc7;
-  margin-bottom: 50px ;
+  margin-bottom: 30px ;
+  display: flex;
+  align-items: center;
 }
 
-.TDcontentBox > .hihi{
-  width: 200px;
-  height: 200px;
-  background-color: blue;
+.TDcontentBox > .imgBox{
+  width: 270px;
+  height: 270px;
+  background-color: #bdd;
+  margin-left: 15px;
+  margin-right: 15px;
 }

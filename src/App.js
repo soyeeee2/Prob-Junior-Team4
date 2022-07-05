@@ -3,7 +3,7 @@ import './App.css';
 import TDcontent from './component/TDcontent';
 import Navbar from './component/Navbar';
 import SelectDropBox from './component/SelectDropBox';
-
+import SortDropBox from './component/SortDropBox';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <h1>여행지</h1>
           <SelectDropBox />
           
-          <div className='dropdown'>dropdown box 자리</div>
+          <SortDropBox />
           <TDcontent />
           <TDcontent />
           <TDcontent />
