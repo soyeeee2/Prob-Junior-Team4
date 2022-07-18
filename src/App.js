@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import TDcontent from './component/TDcontent';
 import Navbar from './component/Navbar';
