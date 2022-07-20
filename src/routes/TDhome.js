@@ -12,7 +12,7 @@ function TDhome() {
       <Navbar />
       <section className='travelDestination01'>
         <TDheader />
-        <div className="SelectBox">
+        <div className="SelectBox conSmall">
           <SelectDropBox />
           <ul className="TagBox">
           <li>페스티벌</li>
