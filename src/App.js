@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './App.css';
 import TDcontent from './component/TDcontent';
 import Navbar from './component/Navbar';
@@ -22,6 +23,14 @@ function App() {
         </div>
       </section>
     </div>
+=======
+import React from "react";
+import AppRouter from "./components/Router";
+
+function App() {
+  return (
+    <AppRouter></AppRouter>
+>>>>>>> b8c1bf3946d6cb3cd58fb22a315b10396440b263
   );
 }
 
