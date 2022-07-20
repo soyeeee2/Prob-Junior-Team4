@@ -1,4 +1,6 @@
 import styles from "./Navbar.module.css"
+import {Link} from "react-router-dom";
+import TDhome from "../routes/TDhome";
 
 const Navbar = () => {
   return(
@@ -6,7 +8,7 @@ const Navbar = () => {
       <div className={`${styles.navCon} ${styles.conLarge}`}>
           <h1>🟡로고</h1>
           <ul className={styles.click}>
-            <li><a href="#!">여행지</a></li>
+            <li><Link to="/TDhome" element={<TDhome />}>여행지</Link></li>
             <li><a href="#!">여행계획</a></li>
             <li><a href="#!">여행지추천</a></li>
             <li><a href="#!">마이페이지</a></li>

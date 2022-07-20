@@ -34,11 +34,14 @@ const SelectBox = (props) =>{
 
 const SelectDropBox = () => {
   return(
-    <>
-      <div className="selecLabel" >지역 선택 : </div>
+    <div className={styles.selectLabel}>
+      <div>지역 선택</div>
       <SelectBox options={localOptions}></SelectBox>
-    </>
+    </div>
   )
 }
 
+
+
 export default SelectDropBox;
+

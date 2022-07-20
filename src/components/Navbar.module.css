@@ -1,12 +1,17 @@
 /* navbar 스타일 */
 .navbar {
-  background-color: #0D1B50;
+  width: 100%;
+  background-color: rgba(13, 27, 80, 1);
   color: #BBFD92;
   font-weight: 600;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
 .conLarge {
-  width: 1440px;
+  width: 1200px;
   margin: 0 auto;
 }
 

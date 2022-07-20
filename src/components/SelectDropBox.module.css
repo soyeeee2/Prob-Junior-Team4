@@ -4,8 +4,7 @@
   height: 30px;
   border : 1px solid rgb(37, 37, 37);
   border-radius: 5px;
-  margin-top: 300px;
-  margin-bottom: 20px;
+  background-color: aqua;
 }
 
 select {
@@ -16,5 +15,15 @@ select {
   border:0; /*기본 스타일 제거 */
   box-sizing: border-box;/*elect 박스의 크기 방식 지정*/
   background:transparent;/*배경색 투명 처리*/
+  appearance: none;
+}
 
+.selectLabel{
+  display: flex;
+  align-items: center;
+  background-color: pink;
+}
+
+.selectLabel > div{
+  margin-right: 20px;
 }
