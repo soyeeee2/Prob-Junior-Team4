@@ -1,4 +1,4 @@
-import styles from './TDheader.module.css';
+import styles from '../styles/TDheader.module.css';
 
 
 const TDheader = () => {

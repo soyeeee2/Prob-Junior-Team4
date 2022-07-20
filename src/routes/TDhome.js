@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import '../styles/App.css';
 import TDcontent from '../components/TDcontent';
 import Navbar from '../components/Navbar';
 import SortDropBox from '../components/SortDropBox';
@@ -10,7 +10,6 @@ function TDhome() {
   return (
     <div className="TDhome">
       <Navbar />
-      <h1>HiHIHIHIH</h1>
       <section className='travelDestination01'>
         <TDheader />
         <div className="SelectBox">

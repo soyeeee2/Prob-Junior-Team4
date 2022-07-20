@@ -1,4 +1,4 @@
-import styles from "./SelectDropBox.module.css"
+import styles from "../styles/SelectDropBox.module.css"
 
 const localOptions = [
 	{ value: "seoul", name: "서울특별시" },
