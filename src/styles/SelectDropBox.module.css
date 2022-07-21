@@ -1,10 +1,10 @@
 /**/
 .selctWrap{
   width: 300px;
-  height: 30px;
+  height: 40px;
   border : 1px solid rgb(37, 37, 37);
   border-radius: 5px;
-  background-color: aqua;
+  background-color: #C9CEE9;
 }
 
 select {
@@ -20,13 +20,13 @@ select {
 
 .selectLabel{
   display: flex;
+  justify-content: center;
   align-items: center;
-  background-color: pink;
 }
 
 .selectLabel > div{
-  margin-right: 20px;
+  margin-right: 30px;
   color: rgba(13, 27, 80, 1);
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bolder;
 }
