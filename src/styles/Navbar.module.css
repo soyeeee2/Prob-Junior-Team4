@@ -65,10 +65,15 @@
   border-radius: 15px;
   background-color: rgb(104, 111, 134);
 }
+
 .navbar .inputSearch::placeholder {
   color: rgba(13, 27, 80, 1);
   font-weight: bold;
   line-height: 3px;
+}
+.navbar .inputSearch p{
+  color: rgba(13, 27, 80, 1);
+  line-height: 30px;
 }
 .navbar .navSearch svg {
   position: absolute;
@@ -77,3 +82,5 @@
   transform: translateY(-50%);
   color: #0D1B50;
 }
+
+
