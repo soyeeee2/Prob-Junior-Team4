@@ -4,7 +4,7 @@ import AppRouter from "./components/Router";
 import {auth} from "./fbase";
 
 function App() {
-   return (
+  return (
     <AppRouter></AppRouter>
   );
 }
