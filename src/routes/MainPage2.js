@@ -20,7 +20,7 @@ function MainPage2(){
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     prevArrow: (
       <FontAwesomeIcon icon={faChevronLeft} />
     ),
@@ -142,49 +142,49 @@ function MainPage2(){
             <div>
               <Link to="/TDhome" element={<TDhome />}>
                 <img className={styles.img} src='images/gangwon.jpg' alt='강원' onMouseOver={onMouseOver}></img>
-                <h3>&#35;강원도</h3>
+                <h3>&#35;강원</h3>
               </Link>
             </div>
             <div>
               <Link to="/TDhome" element={<TDhome />}>
                 <img className={styles.img} src='images/gyeonggi.jpg' alt='경기' onMouseOver={onMouseOver}></img>
-                <h3>&#35;경기도</h3>
+                <h3>&#35;경기</h3>
               </Link>
             </div>
             <div>
               <Link to="/TDhome" element={<TDhome />}>
                 <img className={styles.img} src='images/chungnam.jpg' alt='충남' onMouseOver={onMouseOver}></img>
-                <h3>&#35;충청남도</h3>
+                <h3>&#35;충남</h3>
               </Link>   
             </div>
             <div>
               <Link to="/TDhome" element={<TDhome />}>
                 <img className={styles.img} src='images/chungbuk.jpg' alt='충북' onMouseOver={onMouseOver}></img>
-                <h3>&#35;충청북도</h3>
+                <h3>&#35;충북</h3>
               </Link>     
             </div>
             <div>
               <Link to="/TDhome" element={<TDhome />}>
                 <img className={styles.img} src='images/jeonnam.jpg' alt='전남' onMouseOver={onMouseOver}></img>
-                <h3>&#35;전라남도</h3>
+                <h3>&#35;전남</h3>
               </Link>
             </div>
             <div>
               <Link to="/TDhome" element={<TDhome />}>
                 <img className={styles.img} src='images/jeonbuk.jpg' alt='전북' onMouseOver={onMouseOver}></img>
-                <h3>&#35;전라북도</h3>
+                <h3>&#35;전북</h3>
               </Link>
             </div>
             <div>
               <Link to="/TDhome" element={<TDhome />}>
                 <img className={styles.img} src='images/gyeongnam.jpg' alt='경남' onMouseOver={onMouseOver}></img>
-                <h3>&#35;경상남도</h3>
+                <h3>&#35;경남</h3>
               </Link>
             </div>
             <div>
               <Link to="/TDhome" element={<TDhome />}>
                 <img className={styles.img} src='images/gyeongbuk.jpg' alt='경북' onMouseOver={onMouseOver}></img>
-                <h3>&#35;경상북도</h3>
+                <h3>&#35;경북</h3>
               </Link>
             </div>
           </Slider>

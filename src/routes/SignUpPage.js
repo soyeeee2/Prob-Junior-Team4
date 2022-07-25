@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import {auth} from "../fbase"
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom";
 import styles from "../styles/SignUpPage.module.css"
 
