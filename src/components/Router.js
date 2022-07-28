@@ -8,7 +8,6 @@ import LoginPage from "../routes/LoginPage";
 import SignUpPage from "../routes/SignUpPage";
 import MainPage2 from "../routes/MainPage2";
 
-
 function AppRouter() {
   return (
     <Router>

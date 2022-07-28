@@ -26,7 +26,7 @@ function TDhome() {
           </ul>
         </div>
         <div className='conSmall'>
-          <SortDropBox/>
+          <SortDropBox/>]
           <TDcontent />
         </div>
       </section>

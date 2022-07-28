@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import styles from '../styles/MainPage.module.css'
 import MapPage from './MapPage'
 import MainPage2 from './MainPage2';
-
+import Footer from "../components/Footer";
 const MainPage = () => {
   return (
       <>
@@ -22,6 +22,7 @@ const MainPage = () => {
           </div>
         </div>
         <MainPage2 />
+        <Footer />
       </>
   );
 }
