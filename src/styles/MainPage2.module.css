@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   color: #0b1d50;
-  font-size: 20px;
+  font-size: 1.3rem;
   margin-bottom: 40px;
 }
 .title img{
@@ -38,11 +38,11 @@
 }
 .slider div h3{
   position: absolute;
-  bottom: -2%;
-  left: 12%;
+  bottom: 0.05vh;
+  left: 3.3vw;
   transform: translate(-50%, -50%);
   background-color: rgba(255,255,255,0.7);
-  padding: 3px 10px;
+  padding: 0.5vh 1vw;
   border-radius: 20px;
-  font-size: 14px;
+  font-size: 1vw;
 }
