@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 // import SortDropBox from '../components/SortDropBox';/
 import TDheader from '../components/TDheader';
 import SelectDropBox from '../components/SelectDropBox';
+import SortDropBox from '../components/SortDropBox';
 
 function TDhome() {
   return (
@@ -25,7 +26,7 @@ function TDhome() {
           </ul>
         </div>
         <div className='conSmall'>
-          {/* <SortDropBox/> */}
+          <SortDropBox/>
           <TDcontent />
         </div>
       </section>
