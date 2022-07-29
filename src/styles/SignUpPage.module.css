@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   position: absolute;
-  top: 53%;
+  top: 47%;
   left: 49%;
   transform: translate(-50%, -50%);
 }
@@ -30,7 +30,7 @@ form > input:nth-child(5){
   font-style: italic;
   font-weight: 600;
   color: white;
-  margin-top: 20px;
+  margin-top: 70px;
   padding:0;
 }
 form p{
